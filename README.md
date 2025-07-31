@@ -14,3 +14,18 @@ For example:
 "abcdee" - we can remove one "e" to make it "abcde" which means it is valid too!
 ```
 Examples of real words like this include: 'bluebird','murmur','forgiveable' and of course many others that just include unique letters eg. 'cake' 
+
+
+# Word Overlapping #
+Given two words, it combines them in a way which makes their letters overlap. For example:
+```
+"hippopotamus" + "mustard" -> "hippopotamustard"
+"sugar" + "sugar" -> "sugar"
+```
+And if it's impossible to merge them...
+```
+"water" + "bottle" -> "waterbottle"
+```
+
+
+

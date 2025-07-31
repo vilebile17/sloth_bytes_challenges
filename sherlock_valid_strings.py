@@ -1,3 +1,5 @@
+import sys
+
 def make_dictionary(string):
     # this turns the strng into a dictionary containing character to count mapping
     cool_dict = {}
@@ -43,9 +45,12 @@ def is_valid(string):
 
 def main():
     print("===== WELCOME, MY FRIEND =====")
-    cool_string = str(input("What is the string you want to test? : "))
+    print(f"Thee would like to test '{sys.argv[1]}'")
     print("...")
-    print(f"Is it valid? {is_valid(cool_string)}!")
+    print(f"Is it valid? {is_valid(sys.argv[1])}!")
 
 
-main()
+if len(sys.argv) == 2:
+    main()
+else:
+    print("USAGE: python3 sherlock_valid_strings.py <word>")
