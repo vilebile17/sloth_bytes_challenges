@@ -8,7 +8,7 @@ For example:
 "abcde" - valid!
 "aabbcc" - invalid!
 ```
-What **also** counts as a valid string, is one which can have **one** character removed to become a string which has the same amount of each character.
+What _also_ counts as a valid string, is one which can have **one** character removed to become a string which has the same amount of each character.
 For example:
 ```
 "abcdee" - we can remove one "e" to make it "abcde" which means it is valid too!
