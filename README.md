@@ -22,7 +22,7 @@ Given two words, it combines them in a way which makes their letters overlap. Fo
 "hippopotamus" + "mustard" -> "hippopotamustard"
 "sugar" + "sugar" -> "sugar"
 ```
-And if it's impossible to merge them...
+And if it's impossible to merge them:
 ```
 "water" + "bottle" -> "waterbottle"
 ```
